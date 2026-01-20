@@ -76,13 +76,13 @@ catch(const char* msg)
     cout << "Exception Occurred: " << msg << endl; // Output: Stack is empty. Cannot Pop.
 }
 ```
-# 📂 Project Structure
+## 📂 Project Structure
 - Node Classes: SinglyLLLnode, DoublyLLLnode, etc. (Define the structure of elements).
 - Container Classes: SinglyLLL, Stack, etc. (Define the behavior and algorithms).
 - Main Function: Contains driver code to demonstrate and test all functionalities.
 
-# 👤 Author
-## Soham Sachin Sonar
+## 👤 Author
+### Soham Sachin Sonar
 
 - Role: Developer & Maintainer
 - Focus: C++, Data Structures, Algorithms
