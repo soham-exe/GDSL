@@ -1,5 +1,12 @@
 # Generic Data Structure Library (GDSL)
 
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Data Structures](https://img.shields.io/badge/Data%20Structures-Linked%20List%20%7C%20Stack%20%7C%20Queue-orange?style=for-the-badge)
+![Generic](https://img.shields.io/badge/Template-Generic%20Programming-blueviolet?style=for-the-badge)
+![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+![Author](https://img.shields.io/badge/Author-Soham%20Sonar-lightgrey?style=for-the-badge)
+
 A comprehensive, efficient, and generic C++ library implementing fundamental linear data structures. 
 
 This project demonstrates the power of **C++ Templates** to create reusable data structures that work with any data type (`int`, `float`, `char`, `std::string`, or custom objects). It includes robust error handling and follows Object-Oriented Programming (OOP) principles.
