@@ -27,14 +27,14 @@ This project demonstrates the power of **C++ Templates** to create reusable data
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com//Generic-Data-Structures.git](https://github.com/YourUsername/Generic-Data-Structures.git)
-    cd Generic-Data-Structures
+    git clone [https://github.com/soham-exe/GDSL.git](https://github.com/soham-exe/GDSL.git)
+    cd GDSL
     ```
 
 2.  **Compile the Code**
     You can use any standard C++ compiler (g++, clang, MSVC).
     ```bash
-    g++ GenericDataStructures.cpp -o app
+    g++ GDSL.cpp -o app
     ```
 
 3.  **Run the Executable**
@@ -45,6 +45,9 @@ This project demonstrates the power of **C++ Templates** to create reusable data
 ## 💻 Code Example
 
 Here is how to use the library in your own code.
+
+### Check out exampler main.cpp file:
+[main.cpp](https://github.com/soham-exe/GDSL/blob/main/main.cpp)
 
 ### 1. Creating a Singly Linked List of Integers
 ```cpp
