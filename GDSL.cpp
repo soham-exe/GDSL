@@ -1323,6 +1323,17 @@ class Stack
         void Display();
         int Count();
 };
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Stack
+//  Description   : contructor to initialize stack
+//  Input         : Data of Node
+//  Output        : Nothing
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////
+
 template<class T>
 Stack<T> :: Stack()
 {
@@ -1330,6 +1341,17 @@ Stack<T> :: Stack()
     this->first = NULL;
     this->iCount = 0;
 }
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Push
+//  Description   : Pushes an element onto the stack
+//  Input         : Data of Node
+//  Output        : Nothing
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////
+
 template<class T>
 void Stack<T> ::  Push(T no)
 {
@@ -1341,6 +1363,17 @@ void Stack<T> ::  Push(T no)
 
     this->iCount++;
 } 
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Pop
+//  Description   : Pops an element from the stack
+//  Input         : Nothing
+//  Output        : Popped element
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////
+
 template<class T>                          
 T Stack<T> :: Pop()
 {
@@ -1357,10 +1390,21 @@ T Stack<T> :: Pop()
 
     return Value;
 }
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Peep
+//  Description   : Peeks at the top element of the stack
+//  Input         : Nothing
+//  Output        : Top element of the stack
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////
+
 template<class T>                                     
 T Stack<T> :: Peep()
 {    
-    int Value = 0;
+    T Value;
     if(this->first == NULL)
     {
         throw "Stack is empty. Cannot Peep.";
@@ -1369,6 +1413,17 @@ T Stack<T> :: Peep()
     
     return Value;
 }
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Display
+//  Description   : Displays all elements in the stack
+//  Input         : Nothing
+//  Output        : Nothing
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////
+
 template<class T>
 void Stack<T> :: Display()
 {
@@ -1385,6 +1440,17 @@ void Stack<T> :: Display()
     }
     cout<<"|_______________|\n";
 }
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Count
+//  Description   : Returns the number of elements in the stack
+//  Input         : Nothing
+//  Output        : Number of elements in the stack
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////
+
 template<class T>
 int Stack<T> :: Count()
 {
@@ -1424,6 +1490,17 @@ class Queue
         void Display();
         int Count();
 };
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Queue
+//  Description   : Creates a new queue
+//  Input         : Nothing
+//  Output        : Nothing
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////
+
 template<class T>
 Queue<T> :: Queue()
 {
@@ -1433,6 +1510,16 @@ Queue<T> :: Queue()
     this->last = NULL;
     this->iCount = 0;
 }
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : enqueue
+//  Description   : Adds an element to the rear of the queue
+//  Input         : Element to be added
+//  Output        : Nothing
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////
 template<class T>
 void Queue<T> ::  enqueue(T no)
 {
@@ -1452,6 +1539,16 @@ void Queue<T> ::  enqueue(T no)
     }
     this->iCount++;
 }  
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : dequeue
+//  Description   : Removes an element from the front of the queue
+//  Input         : Nothing
+//  Output        : Element removed from the front of the queue
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////
 template<class T>                         
 T Queue<T> :: dequeue()
 {
@@ -1468,7 +1565,17 @@ T Queue<T> :: dequeue()
     this->iCount--;
 
     return Value;
-}                                     
+}                     
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Display
+//  Description   : Displays all elements in the queue
+//  Input         : Nothing
+//  Output        : Nothing
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////                
 template<class T>
 void Queue<T> :: Display()
 {
@@ -1485,6 +1592,16 @@ void Queue<T> :: Display()
     }
     cout<<"\n";
 }
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Count
+//  Description   : Returns the number of elements in the queue
+//  Input         : Nothing
+//  Output        : Number of elements in the queue
+//  Author        : Soham Sachin Sonar
+//  Date          : 21/01/2026
+//
+////////////////////////////////////////////////////////////////////////////////
 template<class T>
 int Queue<T> :: Count()
 {
